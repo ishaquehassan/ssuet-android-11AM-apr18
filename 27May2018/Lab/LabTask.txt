@@ -1,0 +1,4 @@
+1. Create your mark sheet(using Readline()) (Take Few Subjects marks as input and then print it in formatted style and calculate the percentage based on Marks i.e total marks / obtained marks * 100)
+2. Create a complete calculator Using ReadLine()
+3. Calculate Average and Percentage Using ReadLine()
+4. Create table by taking user input
