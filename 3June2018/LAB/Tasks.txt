@@ -1,0 +1,5 @@
+1. Declare an array print all values of an array using for loop.
+2. Take a number in user input and find it in array
+3. Write a program to declare an array of size 5.take input in an array from user.find the maximum and minimum value of an array.
+4. Print Sum of array of size 10
+5. Declare an array of 10 numbers and multiply each element by 2 and replace the answer in that index
