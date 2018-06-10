@@ -1,0 +1,15 @@
+1. Create a arraylist and save 10 friends name's using readline it using loop & Print it using another Loop
+
+2. Search a name in the arraylist using a arraylist method given by user input from readline
+
+3. Print the index of given value from readline in arrayList using a method
+
+4. Use Map to store Your Subject marks with key as subject name and value as marks using Loop and user Input
+
+5. Print Map with Key and Value using Loop
+
+6. Create a arrayList of type Map<String,String> and save full contact details in it like
+Enter Contact name : SomeInput
+Every contact should be saved as a new map in arraylist
+
+7. Search a user by name given from readline in that arrayList
