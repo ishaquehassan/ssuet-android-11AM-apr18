@@ -1,0 +1,18 @@
+1. Create a number guess game... Generate a number from under 100 and ask user for that number... game should give user 3 chances and if user won or loose the game, it will ask for if he want to continue the game or exit if he selects continue then game should restart and generate the new number and so on... else it will exit (Hint: random number will be generated like this {
+val random = Random()
+random.nextInt(100)
+})
+
+2. Create a contact book... create menu like this
+
+ 	1 to add Contact
+	2 to edit Contact
+	3 to List Contacts
+	4 to Delete Contact
+	5 to Search Contact
+	6 to EXIT
+	
+	Enter Your Choice 
+
+So user will enter a number of his choice and then program will perform that action after completion of that action, program should ask for continue and return to menu or exit, if user selects continue then program should show menu again and so on... else it will say goodbye and exit
+ 
