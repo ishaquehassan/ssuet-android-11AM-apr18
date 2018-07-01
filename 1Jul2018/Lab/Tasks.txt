@@ -1,0 +1,23 @@
+1. Write a function that reverse a number
+Example x = 32243;
+Expected Output : 34223	
+
+2. Write a function that accepts two arguments, a string and a letter and the function will count the number of occurrences of the specified letter within the string. Go to the editor
+Sample arguments : 'hello world', 'o' 
+Expected output : 2 
+
+3. Write a function to Revise String
+Sample arguments : 'ishaq'
+Expected output : 'qahsi'
+
+4. Write a function that joins the string array to a single string and return it. Function has 2 arguments argument 1 is string and the 2nd is character to use for separation but 2nd argument should be optional and if no 2nd argument passed, use ","
+
+Sample arguments : arrayOf("I","s","h","a","q")
+Expected Output : "I,s,h,a,q"
+
+Or 
+
+Sample arguments : arrayOf("I","s","h","a","q"),"-"
+Expected Output : "I-s-h-a-q"
+
+5. Write a program that accepts 2 arguments 1 is array of numbers and 2nd is a function. This function will sum the numbers in array and instead of returning the result, it will pass the total in the function passed in second parameter
