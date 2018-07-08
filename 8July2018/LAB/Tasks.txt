@@ -1,0 +1,16 @@
+1. Write a String Extension function named "sortAsc()" that returns a passed string with letters in alphabetical order. 
+Example string : 'webmaster' 
+Expected Output : 'abeemrstw'
+Assume punctuation and numbers symbols are not included in the passed string.
+
+2. Write a String Extension function named "toTitleCase()" that accepts a string as a parameter and converts the first letter of each word of the string in upper case.
+Example string : 'the quick brown fox' 
+Expected Output : 'The Quick Brown Fox '
+
+3. Write a Int extension Function named "createTable" which accepts 1 int argument named "limit" (Limit argument is optional and has default value of 10) and returns an array of ints of the result multiples
+Example call : println(2.createtable(10).joinToString(","))
+Example Output : 2,4,6,8,10,12,14,16,18,20
+
+4. Write a String extension Function named "toAscii" which has no arguments and returns an array of ints of the ascii codes
+Example call : println("ABCDEF".toAscii().joinToString(","))
+Example Output : 65,66,67,68,69,70
