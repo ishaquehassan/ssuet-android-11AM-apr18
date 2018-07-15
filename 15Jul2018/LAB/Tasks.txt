@@ -1,0 +1,26 @@
+1. Create a function named adder which accepts a number as a parameter... and returns a fun. Whenever you call it return fun ref then it will show you the incremented value of the initial passed param. Fun adder should persist its inc value for an instance.
+Example Call : 
+val add1 = adder(2); 
+val add2 = adder(10);
+
+add1() // Will print 2
+add1() // Will print 4
+add1() // Will print 6
+
+add2() // Will print 10
+add2() // Will print 20
+add2() // Will print 30
+
+2. Create a contact Book and operate its features in functions. Also implement search of contact with filter. Show contacts using foreach and don't use loops for repeating program iteration.
+
+3. Create a function having 3 args number(Int),onEven(fun), onOdd(fun). You need to loop to specified number and call onEven and pass it that number if its even and same goes for odd.
+
+
+
+
+
+
+
+
+
+
