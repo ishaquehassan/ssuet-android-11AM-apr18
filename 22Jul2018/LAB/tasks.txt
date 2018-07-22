@@ -1,0 +1,20 @@
+To Write a file
+ val writer = PrintWriter("abc.txt")
+ writer.println("Hello world ln 1")
+ writer.println("Hello world ln 2")
+ writer.println("Hello world ln 3")
+ writer.close()
+
+To Read a File
+  val reader = FileReader("abc.txt")
+  for (line in reader.readLines()){
+      println(line)
+  }
+
+1. Create A contact book with all functions like search, add,Edit ,del and Save that Data into a File... Every time user requests a data, you need to read file and show it so Data should b persisted across every execution of Program.
+
+2. Create a Guess number Game by generating a Random number and asking user for 3 times  without any while loop using functions. Game can also be paused by entering P as an input at any stage and its state should be saved in File so user can continue on next run of program. Also create a Game function with four Callbacks in a parameter:
+1. onStart (it will be called when game initially started)
+2. onFailedToGuess (it will be called when user has used his chance)
+3. onGuessed (it will be called when user has guessed the number correctly and here you will write the code to decode what to to next. i.e. Asking user to play again aureoles just exit)
+4. onPause (When user paused a game, here you should write your pausing logic and exit)
