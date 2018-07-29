@@ -1,0 +1,7 @@
+1. Create a Todo List. Every task should be a separate object and has 3 properties. App should show a list go todos... you can add, edit ,delete todo's and mark them as complete.
+The should be 2 separate list of tasks, one is pending and the other one is completed.
+For Eg. class Task(val task:String,val isCompleted:Boolean) 
+val task:Task = Task("Buy a bread") 
+
+2. Add Category property to task class and make An option to show task of a desired 
+category.

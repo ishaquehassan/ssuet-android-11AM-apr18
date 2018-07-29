@@ -7,7 +7,6 @@ fun main(args: Array<String>) {
 
     println(car1.model)
     val car3 : Any = Car()
-
 //    println(car2.model)
 }
 
