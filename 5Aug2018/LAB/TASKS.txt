@@ -1,0 +1,23 @@
+1. Create an ATM having a menu
+   1. Add Account
+   2. Login Account
+By selecting 1 Should present the Following console
+   Enter Account Name: 
+   Enter Account Pin:
+   Enter Account Initial Deposit Amount:
+
+After entering it an account object should be added to accounts array list and you should return to main menu. By selecting Login account (2)
+  Enter Pain:
+Then it should present a Menu like this
+  1. For cash withdrawal
+  2. For Account Balance Inquiry 
+  3. For Deposit
+  4. Logout 
+
+By selecting 1 it should Ask you for Amount and then check if that amount is Withdrawable from your account and then minus that amount from account balance,otherwise show an error that not enough amount and return to main menu
+
+By selecting 2 you should just print the account balance remaining
+
+By Selecting 3 you should ask for amount and then add that amount to account
+
+By Selecting 4 you should Present the initial menu where you can login to another account.   
