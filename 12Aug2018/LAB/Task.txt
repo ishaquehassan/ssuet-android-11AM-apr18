@@ -1,0 +1,8 @@
+1. Create an E-Commerce Program
+- Create a product containning ProductTitle,ProductPrice,Qty
+- Create a ShoppingCart which can store array of products and calculate total, List Products and Apply a coupon code on All Products
+- Create a products List where user can select Products by their index and you should ask the quantity they want to add in their cart.. But before adding it to cart, check it with product original qty so it can never be greater. It should continue after a every product is added and list the products again.
+- Implement the search which can product by name
+- Show cart in list and also show Grad Total with it
+- Place an order Using that Shopping cart class and create a random Order number 
+- Store All Orders in a list and add option to view all placed orders with just their order Number and grand total.
