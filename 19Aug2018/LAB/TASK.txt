@@ -1,0 +1,39 @@
+1. Create a University management System containing Following Entity Hierarchy. All Entities should print their objects directly by overriding toString and equals   methods.
+you can apply these logics without any UI, but having a main menu is plus point!
+
+Person
+- Name
+- Email
+- Phone
+
+Attendance
+- Date
+- isPresent
+
+Student inherits from Person
+- RollNo
+- MapOf Attendance 
+
+- 
+
+Teacher
+- ArrayListOf Subjects (String)
+- StaffId
+- Salary
+
+University
+- Name
+- Address
+- email
+- website
+- ArrayListOf Teachers
+- ArrayListOf Students
+- getStudentByRollNo(rollNo) returns Student
+- getStudentByEmail(email) returns Student
+- getStudentAttendance(student) returns MapOf Attendance 
+- getTeachersWhereSalaryIs(amount) returns ArrayListOf Teachers
+- getTeachersByStaffId(id) returns Teacher
+- getTeachersWhereSalaryIsGreater(amount) returns ArrayListOf Teachers
+- getTeachersWhereSalaryIsLessThan(amount) returns ArrayListOf Teachers
+- doesTeacherExists(teacher) returns Bool
+- doesStudentExists(student) returns Bool
