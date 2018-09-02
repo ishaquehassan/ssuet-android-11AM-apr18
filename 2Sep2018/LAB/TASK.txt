@@ -1,0 +1,15 @@
+*Create an Online Recharge Application,where user can pop-up a balance on their phone.
+
+-List of carriers like uFone,Telenor,Zong etc will be showing in Menu.(Make classes of these)
+-User has to select their carrier.
+-Make an Interface like 'CarrierProvider' which includes methods like 'getOffers' , 'getPackages' and 'getCode'(e.g 0334,0345).
+-When user selects a carrier,list of offers and packages will be shown of that particular carrier by implementing 'getOffers' method of interface.
+-Make another interface for payment,which includes getPayment method.
+-When user selects the desired package,take input the code and validate it.then get the payment details from the user by implementin Payment interface, and then successfully recharge the balance.
+
+
+*Make a 'Circle' class which has radius as its property.
+-Overload the + operator so that you can add two Circle objects. 
+-Adding two Circle object should give another Circle whose radius is the sum of the radii of the two Circle objects.
+
+* For the above Circle overload the > (greater than) operator so that you can compare two Circles as to which is bigger (or smaller) . The logic you will use is to compare the radii of the Circle objects and decide which is bigger.

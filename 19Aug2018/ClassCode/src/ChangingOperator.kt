@@ -9,6 +9,8 @@ fun main(args: Array<String>) {
 
 operator fun String.times(other:String) = "${this[0]}${other[0]}"
 
+
+
 operator fun String.plus(other: String) = this*other
 
 
