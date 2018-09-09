@@ -1,0 +1,36 @@
+
+*Create 'Book a ride' application (like Uber).
+
+- User has given car types like Mini,Go,Auto and Moto (Make these classes anonymous).
+- Make an abstract class 'Booking' which includes methods 'findRide' and 'estimateFare' (mark them abstract).
+- All car type classes should override all these methods.
+- 'estimateFare' calculates fare based on car type.like,
+	fare=(endRideLocation-startRideLocation)*cost per km.
+-'cost per km' is different for all car type.
+-All ride classes must have some cars in list for finding a ride.
+
+*Sample:
+
+Choose your Ride:
+	1.Mini
+	2.Go
+	3.Auto
+	4.Moto
+1
+Give start Location : 50
+Give end location : 100
+
+Confirm Request?(y/n): y
+
+Finding Your Ride...
+Ali with ALTO BHW-200 is coming.
+
+You are on your way..
+
+End Trip?(y/n):y
+
+Your Receipt is here:
+	Driver : Ali
+	CarType: Mini
+	CarDetails: ALTO BHW-200
+	Fare : 250

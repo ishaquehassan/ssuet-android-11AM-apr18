@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c223081f-1d42-4384-83d7-d4ff938700f2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../19Aug2018/ClassCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../19Aug2018/ClassCode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../19Aug2018/ClassCode/out/production/ClassCode/Cart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../19Aug2018/ClassCode/out/production/ClassCode/CartKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../19Aug2018/ClassCode/out/production/ClassCode/ChangingOperatorKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../19Aug2018/ClassCode/out/production/ClassCode/GetInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../19Aug2018/ClassCode/out/production/ClassCode/InterfacesKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../19Aug2018/ClassCode/out/production/ClassCode/META-INF/ClassCode.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../19Aug2018/ClassCode/out/production/ClassCode/MyInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../19Aug2018/ClassCode/out/production/ClassCode/MyInterface2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../19Aug2018/ClassCode/out/production/ClassCode/Nokia3310.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../19Aug2018/ClassCode/out/production/ClassCode/OperatorOverloadingKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../19Aug2018/ClassCode/out/production/ClassCode/SamsungPhone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../19Aug2018/ClassCode/out/production/ClassCode/SmartPhone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../19Aug2018/ClassCode/out/production/ClassCode/SmartPhoneExampleKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../19Aug2018/ClassCode/out/production/ClassCode/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../19Aug2018/ClassCode/out/production/ClassCode/featurePhone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../19Aug2018/ClassCode/src/ChangingOperator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../19Aug2018/ClassCode/src/ChangingOperator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../19Aug2018/ClassCode/src/OperatorOverloading.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../19Aug2018/ClassCode/src/OperatorOverloading.kt" afterDir="false" />
-    </list>
+    <list default="true" id="c223081f-1d42-4384-83d7-d4ff938700f2" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +13,7 @@
     <session id="1031890979">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.opened" value="2" />
         </counts>
@@ -101,7 +82,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="1142" />
@@ -136,7 +117,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535873567952" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535874102559" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -202,7 +183,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1142" extended-state="1" />
+    <frame x="0" y="23" width="1920" height="1142" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.1544196" />
@@ -223,7 +204,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Run" order="1" visible="true" weight="0.43343982" />
+      <window_info anchor="right" id="Run" order="1" weight="0.43343982" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Palette" order="4" />
