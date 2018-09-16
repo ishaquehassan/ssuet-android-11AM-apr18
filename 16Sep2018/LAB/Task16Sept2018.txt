@@ -1,0 +1,32 @@
+*Create 'JOB SEARCH' application.(Like ROZEE)
+
+-Create user account by taking the following input:
+	1.Username
+	2.Age
+	3.Email
+	4.Password
+	5.Confirm Password
+	6.Skills with experience (e.g Android exp:2
+				      iOs exp:3
+				      php exp:1)
+
+-All the users account details should be saved in File and filename should be same as the username.
+-Then show some sample jobs like
+	1.Android Developer
+	2.iOS Developer
+	3..NET Developer
+
+*Exceptions should throw on the following fields:
+1.Username exception
+	-Account with same username should be created,throw 'Username already exist exception'.
+2.Age Exception
+	-User should not write age less than 13 and more than 60.
+3.Password exception
+	-Match Password and confirm password feilds.If not matched,throw 'Password not match exception'.
+4.Skills exception
+	-When user selects a particular job,check that skill in user details.If not found throw 'You are not eligible for this job' exception.
+5.Experience exception
+	-After match skill,check user experience of that particular job.If user experience is less than the required,throw 'Requirements doesnot 		meet' exception.
+6.File not exist exception
+	-If user tries to login with username,check if file with that username is exist or not.If not exist throw 'account not exist exception'.
+
