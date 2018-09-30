@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="itemStyle">
+        <item name="android:padding">14dp</item>
+
+    </style>
+
+    <style name="textStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorText2</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="textStyleBold" parent="textStyle">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="borderViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#c9c4c4</item>
+    </style>
+
+</resources>
