@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ViewsActivity">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click Btn 1" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click Btn 2" />
+
+    <ImageView
+        android:id="@+id/myImg"
+        android:tint="#000"
+        android:src="@android:drawable/ic_lock_idle_charging"
+        android:scaleType="fitCenter"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/buttonChangeActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click Btn 2" />
+
+</LinearLayout>
