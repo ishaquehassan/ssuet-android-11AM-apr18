@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/map_action"
+            style="@style/button_style"
+            android:text="show location" />
+
+        <Button
+            android:id="@+id/url_action"
+            style="@style/button_style"
+            android:text="show URL" />
+
+
+        <Button
+            android:id="@+id/dial_action"
+            style="@style/button_style"
+            android:text="090078601" />
+
+        <Button
+            android:id="@+id/alarm_action"
+            style="@style/button_style"
+            android:text="Set Alarm" />
+
+
+
+        <Button
+            android:id="@+id/camera_action"
+            style="@style/button_style"
+            android:text="Capture" />
+
+
+        <Button
+            android:id="@+id/camera_full_action"
+            style="@style/button_style"
+            android:text="Full Capture" />
+
+
+        <ImageView
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/mySelfie"
+            />
+
+        <ImageView
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/mySelfieFull"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>
