@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".Fragment1"
+             android:background="@android:color/black"
+>
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+            android:id="@+id/myNameTvf1"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/hello_blank_fragment"/>
+
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_gravity="bottom">
+
+        <EditText
+                android:id="@+id/myEtf1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Hello"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+        />
+
+        <Button android:id="@+id/etBtnf1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SEND To Activity"
+        />
+
+    </LinearLayout>
+</FrameLayout>
