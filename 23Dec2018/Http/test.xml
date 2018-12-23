@@ -1,0 +1,16 @@
+<students>
+    <student name="Stu 1" age="23">
+        <subjects>
+            <item>Android</item>
+            <item>iOS</item>
+            <item>Web</item>
+        </subjects>
+    </student>
+    <student name="Stu 1" age="23">
+        <subjects>
+            <item>Android</item>
+            <item>iOS</item>
+            <item>Web</item>
+        </subjects>
+    </student>
+</students>

@@ -1,0 +1,13 @@
+{
+  "students" : [
+    {
+      "name" :"Student 1",
+      "age" : 21,
+      "subjects" : [
+        "Android",
+        "ios",
+        "Web"
+      ]
+    }
+  ]
+}
