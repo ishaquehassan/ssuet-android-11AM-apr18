@@ -29,7 +29,7 @@ class BooksAdapter(val data:ArrayList<VolumesResponse.VolumeItem>) : RecyclerVie
                     centerRadius = 50f
                     start()
                 })
-            }).load("https://9to5google.com/wp-content/uploads/sites/4/2018/07/android_p_dp4_icons_quick_settings_4.jpg?quality=82&strip=all&w=1600&asasas=${System.currentTimeMillis()}").into(bookImage)
+            }).load(book.volumeInfo?.imageLinks?.smallThumbnail).into(bookImage)
         }
     }
 

@@ -1,5 +1,6 @@
 package android.ssuet.retrofitapp
 
+import android.app.Dialog
 import android.icu.lang.UCharacter.GraphemeClusterBreak.L
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
@@ -23,6 +24,9 @@ class MainActivity : AppCompatActivity(),Callback<VolumesResponse>{
 
         apiBtn.setOnClickListener {
             Api().service.getVolumes("kotlin").enqueue(this)
+//            Api().service.getVol("android").enqueue(this)
+
+
         }
     }
 

@@ -1,7 +1,10 @@
 package android.ssuet.retrofitapp
 
-class VolumesResponse {
+import java.io.Serializable
+
+class VolumesResponse : Serializable{
     val totalItems:Int = 0
+
     val items:Array<VolumeItem>? = null
 
     class VolumeItem{

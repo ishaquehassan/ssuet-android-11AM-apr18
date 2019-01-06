@@ -8,4 +8,8 @@ interface BooksApi{
 
     @GET("books/v1/volumes")
     fun getVolumes(@Query("q") q:String):Call<VolumesResponse>
+
+
+    @GET("books/v1/volumes")
+    fun getVol(@Query("q") query:String):Call<VolumesResponse>
 }
