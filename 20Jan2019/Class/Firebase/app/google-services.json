@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "182007201734",
+    "firebase_url": "https://ssuet2019jan.firebaseio.com",
+    "project_id": "ssuet2019jan",
+    "storage_bucket": "ssuet2019jan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182007201734:android:cf8a9fa385371c87",
+        "android_client_info": {
+          "package_name": "session.ssuet.firebasedatabase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182007201734-7f1g35csniao94ehdjf87c4289d8le95.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4m9WZ_ML_eKTDV7zcB8sPyzjtIrRCshI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
