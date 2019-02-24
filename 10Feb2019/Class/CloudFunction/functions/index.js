@@ -17,6 +17,6 @@ exports.helloWorldGet = functions.https.onRequest((request, response) => {
 
 exports.onFunValueChange = functions.database.ref("functionData").onUpdate((snapshot, context) => {
     let myVal = snapshot.after.val().toUpperCase()+" SSUET";
-    admin.database().ref("hello").set(myVal);
-    return snapshot.after.val()
+    admin.database().ref("hello_node").set(myVal);
+    return snapshot.before.val()
 });
