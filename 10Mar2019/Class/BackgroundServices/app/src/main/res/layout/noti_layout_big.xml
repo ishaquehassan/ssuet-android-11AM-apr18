@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+              android:padding="10dp"
+              android:background="@android:color/holo_blue_bright"
+              android:layout_width="match_parent"
+              android:layout_height="250dp">
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Hello world"
+              android:textSize="20sp"
+              android:id="@+id/mySampleTv"
+              android:textColor="@android:color/black"
+    />
+
+</LinearLayout>
