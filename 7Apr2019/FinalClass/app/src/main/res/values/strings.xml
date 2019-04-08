@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FinalClass</string>
+    <string name="app_name_local">FinalClass Local</string>
+    <string name="app_name_dev">FinalClass Dev</string>
+</resources>
